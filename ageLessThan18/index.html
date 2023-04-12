@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome Page</title>
+    <script>
+      function checkAge() {
+        var name = document.getElementById("name").value;
+        var age = document.getElementById("age").value;
+        if (age < 18) {
+          alert(
+            "Hello " + name + ", you are not authorized to visit this site."
+          );
+        } else {
+          alert("Welcome to this site, " + name + "!");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Welcome Page</h1>
+    <p>Please enter your name and age:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br />
+
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age" /><br />
+
+      <input type="button" value="Submit" onclick="checkAge()" />
+    </form>
+  </body>
+</html>
