@@ -1,0 +1,14 @@
+/* Define some styles for our page elements */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  h1 {
+    color: #b04444;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
